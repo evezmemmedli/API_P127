@@ -1,6 +1,6 @@
-﻿namespace API_P127.Models
+﻿namespace API_P127.DTOs
 {
-    public class Car
+    public class CarListItemDto
     {
         public int Id { get; set; }
         public string Brand { get; set; }
@@ -8,8 +8,6 @@
         public decimal Price { get; set; }
         public string Color { get; set; }
         public bool Display { get; set; } = false;
-
-
 
     }
 }

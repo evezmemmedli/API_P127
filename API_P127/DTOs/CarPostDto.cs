@@ -1,15 +1,12 @@
-﻿namespace API_P127.Models
+﻿namespace API_P127.DTOs
 {
-    public class Car
+    public class CarPostDto
     {
-        public int Id { get; set; }
         public string Brand { get; set; }
         public string Model { get; set; }
         public decimal Price { get; set; }
         public string Color { get; set; }
         public bool Display { get; set; } = false;
-
-
 
     }
 }
